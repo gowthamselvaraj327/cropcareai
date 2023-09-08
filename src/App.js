@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import { createContext, useState } from 'react'
 import './App.css';
+import './App.css'
+import 'remixicon/fonts/remixicon.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import UploadPage from './pages/UploadPage';
+import Home from './pages/Home';
+import ResultPage from './pages/ResultPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+
+export const AppContext = createContext(null)
 
 function App() {
+  const [result, setResult] = useState()
+  const [upimg, setUpImg] = useState()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <AppContext.Provider value={{ result, setResult, upimg, setUpImg }}>
+        <div>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/upload' element={<UploadPage />} />
+            <Route path='/result' element={<ResultPage />} />
+            <Route path='/about' element={<AboutPage />} />
+            <Route path='/contact' element={<ContactPage />} />
+          </Routes>
+        </div>
+      </AppContext.Provider>
+    </Router>
   );
 }
 
