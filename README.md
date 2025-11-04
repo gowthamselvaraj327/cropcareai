@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# CropCareAI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**CropCareAI** is a modern web application built with **ReactJS**, **React Router DOM**, **Axios**, and **Remix Icon**.  
+It provides a clean and responsive user interface for an AI-powered crop health monitoring platform.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Why ReactJS
 
-### `npm start`
+- **Fast & Interactive:** Built with React for a smooth and dynamic user experience.  
+- **Component-Based:** Modular structure for easy maintenance and scalability.  
+- **Seamless Navigation:** Uses React Router DOM for single-page app navigation.  
+- **API Ready:** Integrated with Axios for flexible API communication.  
+- **Modern UI:** Styled with Remix Icons and responsive design principles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+| Technology | Purpose |
+|-------------|----------|
+| **ReactJS** | Front-end library for building interactive UIs |
+| **React Router DOM** | Enables client-side routing |
+| **Axios** | Handles API requests and data fetching |
+| **Remix Icon** | Icon pack for elegant UI elements |
+| **Vercel** *(optional)* | Hosting and deployment platform |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Installation & Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
+```
+git clone https://github.com/gowthamselvaraj327/cropcareai.git
+cd cropcareai
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Install Dependencies
+```
+npm install
+```
+### 3. Run the Application
+```
+npm start
+```
+Then open http://localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
+ - ### Home Page
+    ![Documentation](/public/img/home.png)
+ - ### About Page
+    ![Documentation](public/img/about.png)
+ - ### File Upload Page
+    ![Documentation](public/img/upload.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment (Vercel)
+This application is deployed using Vercel for fast, scalable, and serverless hosting.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Steps:
+1. Push your code to GitHub.
+2. Go to [Vercel](https://vercel.com/)
+    - Login or Signup with your github account
+3. Import your repository.
+4. Deploy — Vercel automatically builds and hosts your app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Live Demo:** [cropcareai](https://cropcareai-1w88v8qw2-gowthamselvaraj327s-projects.vercel.app/)
